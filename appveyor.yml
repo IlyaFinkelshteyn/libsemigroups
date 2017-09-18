@@ -1,6 +1,8 @@
 # set clone depth
 clone_depth: 5                  # clone entire repository history if not defined
 
+image: Previous Visual Studio 2015
+
 environment:
   matrix:
     - CYG_ARCH: x86
